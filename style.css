@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: radial-gradient(#70e0df,#1b2b2b);
+    height: 100vh;
+}
+#container{
+    position: absolute;
+    width: 60vw;
+    height: 90vh;
+    margin-top: 10vh;
+    margin-left: 20vw;
+   background-color: #393641;
+   opacity: 30%;
+   border-radius: 30px 20px;
+   
+}
+#inputs{
+    position: absolute;
+color: #f250a7;
+font-size: 30px;
+text-align: center;
+margin-top: 0vh;
+margin-left: 440px;
+}
+#generatebutton{
+    width: 100px;
+    height: 50px;
+    background-color: #f8f1f5;
+    border-radius: 5px 4px 5px 4px;
+    border-style: double;
+    margin-bottom: 10px;
+}
+#generatebutton:hover{
+    color: #e159b4;
+    background-color: #70e0df;
+}
+#reset{
+    width: 100px;
+    height: 50px;
+    background-color: #f250a7;
+    border-radius: 5px 4px 5px 4px;
+    border-style: double;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+#textBox{
+    background: linear-gradient(skyblue);
+    width: 200px;
+    border: 3px solid black;
+    
+    height: 60px;
+    border-radius: 10px 10px 20px 20px;
+}
+#grid{
+    position: absolute;
+    width: 50vw;
+    height: fit-content;
+    margin-top: 45vh;
+    margin-left: 23vw;
+    background-color:#e3d3a8 ;
+    padding: 20px 10px 20px 30px;
+    border-radius: 20px 10px;
+}
+.myDiv{
+    display: inline-block;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 5px;
+    background-color: #f250a7; 
+    text-align: center;
+    border: 3px solid white;
+    padding: 2px;
+    white-space: 10px;
+}
